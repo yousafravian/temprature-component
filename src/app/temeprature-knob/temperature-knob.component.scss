@@ -1,7 +1,7 @@
 :host {
   $pins-width: 4px;
   $pins-color: black;
-  $knob-color: grey;
+  $knob-color: white;
   $knob-radius: 150px;
 
   display: flex;
@@ -24,7 +24,7 @@
     height: $knob-radius;
     border-radius: 50%;
     background-color: $knob-color;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
     cursor: pointer;
 
     &:after,&:before {
