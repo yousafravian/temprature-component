@@ -57,19 +57,6 @@
       transform-origin: top center;
       transition: transform 0.2s ease-in-out;
       transform: translate(-50%) rotate(40deg);
-
-      &.active {
-        animation: rotateKnob 2s infinite;
-      }
     }
-  }
-}
-
-@keyframes rotateKnob {
-  0%, 100% {
-    transform: translate(-50%, -100%) rotate(0deg);
-  }
-  50% {
-    transform: translate(-50%, -100%) rotate(180deg);
   }
 }
