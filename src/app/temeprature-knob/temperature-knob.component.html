@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="knob">
+    <div [style.transform]="'translate(-50%) rotate(' + knobStyle + 'deg)'" class="dial"></div>
+  </div>
+  <app-temperature-label [temperature]="targetTemp"></app-temperature-label>
+  <small *ngIf="minTemperature > maxTemperature"><strong>Note:</strong> Min temperature cannot be greater than Max temperature</small>
+</div>
